@@ -394,7 +394,6 @@
     margin-left: 400px;
     margin-top: 50px;
     border-radius: 1px 3px;
-    box-shadow: 10px 10px 10px #000000;
 }
 
 .pokedex-top-curve2 {
@@ -406,16 +405,6 @@
     margin-top: 70px;
     transform: rotate(40deg);
     z-index: 2;
-}
-
-.pokedex-top-curve2-shadow {
-    height: 10px;
-    width: 25px;
-    transform: rotate(42deg);
-    box-shadow: 10px 10px 10px #000000;
-    position: fixed;
-    margin-top: 90px;
-    margin-left: 525px;
 }
 
 .screen2 {
