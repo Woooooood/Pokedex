@@ -1,5 +1,5 @@
 .pokedex {
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 20%;
 
 }
@@ -24,7 +24,7 @@
 }
 
 .pokedex-top-left {
-    background-color: #a50a13;
+    background-color: #6a0005;
     position: fixed;
     width: 200px;
     height: 100px;
@@ -33,7 +33,7 @@
 }
 
 .pokedex-top-right  {
-    background-color: #a50a13;
+    background-color: #6a0005;
     position: fixed;
     width: 200px;
     height: 50px;
@@ -45,7 +45,7 @@
 }
 
 .pokedex-top-curve {
-    background-color: #a50a13;
+    background-color: #6a0005;
     position: fixed;
     height: 50px;
     width: 80px;
