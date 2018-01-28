@@ -1,20 +1,19 @@
 window.onload = function () {
-    document.querySelector('#form').onsubmit = function () {
-        var searchPkm = document.querySelector('input').value;
-}
+    document.querySelector('#myform').onsubmit = function () {
+        var searchPkm = document.querySelector('input[name="pkdname"]').value;
+        var pokemon = document.querySelector('.screen');
 
-    searchPkm.onclick = function () {
-}
+            $.ajax({
+                url: 'pokemons.json',
+                type: 'get',
+                dataType: 'json',
+                success: function (data) {
+                    for (var i in data) {
+                       searchPkm += data[i].name;
+                        console.log("test");
 
-    $.ajax({
-        url: 'pokemons.json',
-        type: 'get',
-        dataType: 'json',
-        success: function (data) {
-            for (var i in data) {
-                searchPkm = data[i].toLowerCase();
-                if searchPkm ===
                     }
-        }
+                }
+            });
     }
 }
