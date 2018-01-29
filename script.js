@@ -42,7 +42,7 @@ window.onload = function () {
                     imagepkm.setAttribute('src', 'http://www.pokestadium.com/sprites/xy/' + data[i].name.toLowerCase() + '.gif');
                     document.querySelector('.pokemonname').innerHTML = 'Name: ' + data[i].name;
                     document.querySelector('.pokemontype').innerHTML = 'Type: ' + data[i].type;
-                    $(blockErrors).text('');
+                    blockErrors.innerText = '';
                     if (data[i].type === 'electric') {
                         textpkmtype.style.color = "yellow";
                     }
