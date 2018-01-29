@@ -2,7 +2,41 @@
     font-family: "Pokemon Solid";
     src: url("./assets/Pokemon Solid.ttf");
 }
+body {
+    background-color: black
+}
+ #pkdname {
+     margin-left: 600px;
+     position: fixed;
+     background-color: #a50a13;
+     color: snow;
+ }
+.btn {
+    height: 25px;
+    width: 50px;
+    margin-left: 800px;
+    position: fixed;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
 
+.btn1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #000000;
+}
+
+.btn:hover {
+    background-color: #ff0b1c;
+}
 .pokedex {
     margin-top: 10px;
     margin-left: 20%;
