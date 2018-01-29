@@ -24,7 +24,16 @@ window.onload = function () {
                     textpkmtype.style.display = "none";
                     textpkmname.style.display = "none";
                     blockErrors.innerText = "Please, specify: \'nidoranm\' or \'nidoranf\'";
-
+                } else if (searchPkm === 'farfetch\'d') {
+                    blockErrors.innerText = "Do you mean Farfetchd ?";
+                    imagepkm.style.display = "none";
+                    textpkmtype.style.display = "none";
+                    textpkmname.style.display = "none";
+                } else if (searchPkm === 'mr. mime'){
+                    blockErrors.innerText = "Do you mean Mr-mime?";
+                    imagepkm.style.display = "none";
+                    textpkmtype.style.display = "none";
+                    textpkmname.style.display = "none";
                 } else if (searchPkm === data[i].name.toLowerCase() || i === searchPkm) {
 
                     imagepkm.style.display = "inherit";
