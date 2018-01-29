@@ -29,13 +29,17 @@ window.onload = function () {
                     imagepkm.style.display = "none";
                     textpkmtype.style.display = "none";
                     textpkmname.style.display = "none";
-                } else if (searchPkm === 'mr. mime'){
+                } else if (searchPkm === 'mr. mime') {
                     blockErrors.innerText = "Do you mean Mr-mime?";
                     imagepkm.style.display = "none";
                     textpkmtype.style.display = "none";
                     textpkmname.style.display = "none";
+                } else if (1 > searchPkm || 152 < searchPkm) {
+                    blockErrors.innerText = 'pokemon number not found, please enter a number between 1 and 151.';
+                    imagepkm.style.display = "none";
+                    textpkmtype.style.display = "none";
+                    textpkmname.style.display = "none";
                 } else if (searchPkm === data[i].name.toLowerCase() || i === searchPkm) {
-
                     imagepkm.style.display = "inherit";
                     textpkmtype.style.display = "inherit";
                     textpkmname.style.display = "inherit";
