@@ -70,28 +70,28 @@ window.onload = function () {
                             textpkmtype.style.color = "orange";
                         }
                         if (type === 'grass') {
-                            textpkmtype.style.color = "#42ff2d";
+                            textpkmtype.style.color = "#1a9a28";
                         }
                         if (type === 'poison') {
                             textpkmtype.style.color = "#781a70";
                         }
                         if (type === 'water') {
-                            textpkmtype.style.color = "#2c8ebf";
+                            textpkmtype.style.color = "#297bbf";
                         }
                         if (type === 'ground') {
-                            textpkmtype.style.color = "#ac9d85";
+                            textpkmtype.style.color = "#817755";
                         }
                         if (type === 'rock') {
-                            textpkmtype.style.color = "#705f19";
+                            textpkmtype.style.color = "#634b10";
                         }
                         if (type === 'psychic') {
-                            textpkmtype.style.color = "#bf4395";
+                            textpkmtype.style.color = "#b1338d";
                         }
                         if (type === 'ice') {
-                            textpkmtype.style.color = "#0abfaf";
+                            textpkmtype.style.color = "#18adae";
                         }
                         if (type === 'bug') {
-                            textpkmtype.style.color = "#7fbf25";
+                            textpkmtype.style.color = "#5e9321";
                         }
                         if (type === 'dragon') {
                             textpkmtype.style.color = "#3310bf";
@@ -100,7 +100,7 @@ window.onload = function () {
                             textpkmtype.style.color = "#350f53";
                         }
                         if (type === 'steel') {
-                            textpkmtype.style.color = "#a19ba0";
+                            textpkmtype.style.color = "#686764";
                         }
                         if (type === 'dark') {
                             textpkmtype.style.color = "#000000";
