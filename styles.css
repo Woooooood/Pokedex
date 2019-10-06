@@ -3,19 +3,28 @@
     src: url("./assets/Pokemon Solid.ttf");
 }
 body {
-    background-color: black
+    background-image: url(./assets/pokemon.png);
+    background-size: cover;
+   
+    
 }
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
  #pkdname {
-     margin-left: 600px;
-     position: fixed;
      background-color: #a50a13;
      color: snow;
  }
+
 .btn {
     height: 25px;
-    width: 50px;
-    margin-left: 800px;
-    position: fixed;
+    width: 56px;
     background-color: #4CAF50;
     border: none;
     color: white;
@@ -38,8 +47,8 @@ body {
     background-color: #ff0b1c;
 }
 .pokedex {
-    margin-top: 10px;
-    margin-left: 20%;
+margin-left: 32%;
+margin-top: 6%  
 
 }
 .pokedexright {
